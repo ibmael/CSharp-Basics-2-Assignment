@@ -40,6 +40,15 @@
             Console.WriteLine($"Task 3: {sizeLabel}");
             Console.WriteLine();
             #endregion
+            //Task Four
+            #region Task 4
+            for (int i = 0; i < books.Length; i++)
+            {
+                Console.WriteLine($"Task 4: {i + 1}. {books[i]}");
+            }
+            Console.WriteLine();
+            #endregion
+
 
         }
     }
