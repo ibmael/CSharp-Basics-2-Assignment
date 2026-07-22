@@ -58,6 +58,16 @@
             }
             Console.WriteLine();
             #endregion
+            //Task Six
+            #region Task 6
+            int count = 0;
+            do
+            {
+                Console.WriteLine("Task 6: Checking book...");
+                count++;
+            } while (count < 3);
+            Console.WriteLine();
+            #endregion
 
 
         }
