@@ -48,6 +48,16 @@
             }
             Console.WriteLine();
             #endregion
+            //Task Five
+            #region Task 5
+            int j = 0;
+            while (j < books.Length)
+            {
+                Console.WriteLine($"Task 5: {books[j]}");
+                j++;
+            }
+            Console.WriteLine();
+            #endregion
 
 
         }
