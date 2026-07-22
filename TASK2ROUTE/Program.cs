@@ -15,6 +15,25 @@
             }
             Console.WriteLine();
             #endregion
+            //Task Two
+            #region Task 2
+            string title = "Refactoring";
+            switch (title)
+            {
+                case "Clean Code":
+                    Console.WriteLine("Task 2: Great choice!");
+                    break;
+                case "Refactoring":
+                    Console.WriteLine("Task 2: Nice pick!");
+                    break;
+                default:
+                    Console.WriteLine("Task 2: Never heard of it");
+                    break;
+            }
+            Console.WriteLine();
+
+            #endregion
+
         }
     }
 }
