@@ -89,8 +89,34 @@
             }
             Console.WriteLine();
             #endregion
+            //Task Nine
+            #region Task 9
+            foreach (string book in books)
+            {
+                if (book == "The Pragmatic Programmer")
+                {
+                    continue;
+                }
+                Console.WriteLine($"Task 9: {book}");
+            }
+            Console.WriteLine();
+            #endregion
+            //Task Ten
+            #region Task 10
+            PrintFirstBook(books);
+            PrintFirstBook(new string[] { });
+            #endregion
 
+            Console.ReadKey();
 
+        }
+        static void PrintFirstBook(string[] books)
+        {
+            if (books.Length == 0)
+            {
+                return;
+            }
+            Console.WriteLine($"Task 10: {books[0]}");
         }
     }
 }
