@@ -76,6 +76,19 @@
             }
             Console.WriteLine();
             #endregion
+            //Task Eight
+            #region Task 8
+            foreach (string book in books)
+            {
+                if (book == "Refactoring")
+                {
+                    Console.WriteLine($"Task 8: {book}");
+                    break;
+                }
+                Console.WriteLine($"Task 8: {book}");
+            }
+            Console.WriteLine();
+            #endregion
 
 
         }
