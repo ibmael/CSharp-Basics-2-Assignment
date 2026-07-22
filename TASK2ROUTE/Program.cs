@@ -33,6 +33,13 @@
             Console.WriteLine();
 
             #endregion
+            //Task Three
+            #region Task 3
+            int pages3 = 464;
+            string sizeLabel = pages3 > 300 ? "Long Book" : "Short Book";
+            Console.WriteLine($"Task 3: {sizeLabel}");
+            Console.WriteLine();
+            #endregion
 
         }
     }
