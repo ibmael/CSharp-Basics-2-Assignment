@@ -68,6 +68,14 @@
             } while (count < 3);
             Console.WriteLine();
             #endregion
+            //Task Seven
+            #region Task 7
+            foreach (string book in books)
+            {
+                Console.WriteLine($"Task 7: {book}");
+            }
+            Console.WriteLine();
+            #endregion
 
 
         }
